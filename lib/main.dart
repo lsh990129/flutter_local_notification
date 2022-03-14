@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_local_notification/image_page.dart';
 import 'package:flutter_native_timezone/flutter_native_timezone.dart';
 import 'MyHomePage.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -48,7 +49,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
+      home: const ImagePage(),
     );
   }
 }
